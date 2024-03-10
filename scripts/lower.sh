@@ -39,5 +39,5 @@ tcpserver 127.0.0.10 6002  kubectl -n oxs-test-tools exec -i kafdrop-jforero -- 
 tcpserver 127.0.0.10 6003  kubectl -n oxs-test-tools exec -i kafdrop-jforero -- nc kafka.dump.orderexecution.internal 6003 &
 tcpserver 127.0.0.10 6004  kubectl -n oxs-test-tools exec -i kafdrop-jforero -- nc kafka.dump.orderexecution.internal 6004 &
 
-tcpserver 127.0.0.11 443 kubectl -n oxs-test-tools exec -i kafdrop-jforero -- nc grpc-qa1-tools-streaming-balances.bs-eqs-usoh.nite.tradestation.io 443 &
+# tcpserver 127.0.0.11 443 kubectl -n oxs-test-tools exec -i kafdrop-jforero -- nc grpc-qa1-tools-streaming-balances.bs-eqs-usoh.nite.tradestation.io 443 &
 tcpserver 127.0.0.12 58732 kubectl -n oxs-test-tools exec -i kafdrop-jforero -- nc 172.27.32.22 58732 &
