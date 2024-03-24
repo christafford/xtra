@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 public class Recorder {
     private string _url;
     private string _name;
-    private string _outputFileDir = "/mnt/usbdrive/saves/";
+    private string _outputFileDir = "/run/media/chris/2339c114-57d3-46c4-aafc-08017858489f/saves/";
 
     public Recorder(string url) {
         _url = url;
